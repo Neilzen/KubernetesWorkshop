@@ -12,7 +12,6 @@ public class HomeController {
 
     private String pageContent;
 
-    @Refresh
     public HomeController(@Value("${page.content}") String pageContent){
         this.pageContent=pageContent;
     }
