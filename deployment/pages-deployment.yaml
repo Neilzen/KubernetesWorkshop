@@ -17,7 +17,7 @@ spec:
         app: pages
     spec:
       containers:
-        - image: neilzen23/pages:config
+        - image: neilzen23/pages:pipeline
           name: pages
           ports:
             - containerPort: 8080
