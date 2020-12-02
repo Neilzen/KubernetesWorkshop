@@ -2,7 +2,7 @@ name: Pages Pipeline
 
 on:
   push:
-    branches: [service]
+    branches: service
 
 jobs:
   build-artifact:
