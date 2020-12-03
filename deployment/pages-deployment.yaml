@@ -20,7 +20,7 @@ spec:
         tier: service
     spec:
       containers:
-        - image: neilzen23/pages:service
+        - image: neilzen23/pages:distributed
           name: pages
           ports:
             - containerPort: 8080
