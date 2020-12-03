@@ -22,13 +22,6 @@ spec:
       containers:
         - image: mysql:8.0
           name: mysql
-          resources:
-            requests:
-              memory: 500Mi
-              cpu: 0.25
-            limits:
-              memory: 900Mi
-              cpu: 1
           env:
             - name: MYSQL_ROOT_PASSWORD
               valueFrom:
